@@ -35,6 +35,20 @@ a {
   text-decoration: none;
 }
 
+.s3-demo {
+  width: fit-content;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+.s3-demo h1 {
+  margin-bottom: 10px;
+}
+
+.s3-demo p {
+  margin-bottom: 10px;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

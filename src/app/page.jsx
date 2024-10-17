@@ -52,7 +52,7 @@ export default function Home() {
   };
 
   return (
-    <div>
+    <div className='s3-demo'>
       <h1>Upload and Delete File from AWS S3</h1>
       <input type="file" onChange={handleFileChange} />
       <button onClick={handleUpload}>Upload</button>
